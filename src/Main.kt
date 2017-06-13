@@ -3,9 +3,10 @@
  */
 
 fun main(args: Array<String>) {
-    val userJava = UserJava("work.gurin@gmail.com")
-    println("Java Example: ${userJava.email}")
+ val person = Person("Stanislav", "Gurin", 22)
 
-    val userKotlin = UserKotlin("work.gurin@gmail.com")
-    println("Kotlin Example: ${userKotlin.email}")
+    person.isStudent = false
+
+    println(person.isStudent)
+
 }
